@@ -2,7 +2,6 @@
 
 Le but de cet exercice est de modéliser un RPG via des classes PHP. Le déroulement du jeu n'a aucune importance ainsi que l'équilibre.
 
-
 ## Partie 1
 
 ### Configurer Composer pour ajouter l'autoloader
@@ -14,9 +13,9 @@ Voici La liste des classes que vous devrez créer et leur spécificité.
 
 ### Classe **abstraite** Character
 
-Cette classe dispose des attributs et méthodes suivantes:
+Cette classe dispose des attributs et méthodes suivantes :
 
-**Attributs**:
+**Attributs** :
 
 - name (string)
 - health (int)
@@ -194,9 +193,9 @@ Ici on complique encore les choses !
 
 Vous pouvez créer une classe Game, qui dispose d'un tableau d'objet Result.
 
-La classe Result contient le gagnant et le perdant ainsi que tout autres informations de votre choix
+La classe Result contient le gagnant et le perdant ainsi que toute autres informations de votre choix
 
-Ainsi dans l'index a chaque fin de combat il est important d'ajouter le résultat du combat dans l'objet Game.
+Ainsi dans l'index à chaque fin de combat il est important d'ajouter le résultat du combat dans l'objet Game.
 
 Enregistrez l'objet dans un fichier json.
 

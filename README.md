@@ -165,3 +165,42 @@ Maintenant que vous disposez d'une classe Inventory et de classes Items. Il faut
 
 
 Testez les nouvelles fonctionnalités sur l'index.
+
+## Partie 2
+
+### Gains d'expériences
+
+L'objectif de cette partie est de faire en sorte de gagner de l'expérience suite à un combat et de gagner en niveau.
+
+La modélisation est libre. Cependant, je vous propose une solution :
+
+Vos personnages disposeront d'une quantité de points d'expériences qui, arrivé à certaine valeur, augmentera le niveau du personnage ce qui augmentera les statistiques de celui-ci.
+
+L'ajout d'expérience au personnage se fait quand il tue son adversaire (la quantité d'expérience donnée peut être une valeur fixe de votre choix)
+
+## Sauvegarde des résultats de combats ou des personnages
+
+Ici vous avez le choix, soit vous décidez de partir sur une fonctionnalité qui sauvegarde vos personnages dans un fichier pour retrouver leurs états soit vous partez sur l'enregistrement de résultats de combats.
+
+Dans les deux cas, il est conseiller de vous aider de la correction de l'exercice 3 sur les interfaces (les JsonConvertible).
+
+### La sauvegarde des personnages
+
+Pour simplifier la sauvegarde, il est peut-être intéressant de créer une classe Game qui contiendrais tous vos personnages et de sauvegarder cette classe dans un fichier json.
+
+### La sauvegarde de résultats
+
+Ici on complique encore les choses !
+
+Vous pouvez créer une classe Game, qui dispose d'un tableau d'objet Result.
+
+La classe Result contient le gagnant et le perdant ainsi que tout autres informations de votre choix
+
+Ainsi dans l'index a chaque fin de combat il est important d'ajouter le résultat du combat dans l'objet Game.
+
+Enregistrez l'objet dans un fichier json.
+
+Et chaque fois que vous rechargez le fichier, vous pouvez faire en sorte d'afficher le résultat des 5 derniers combats.
+
+N'hésitez pas à ajouter d'autres statistiques.
+

@@ -186,7 +186,7 @@ Dans les deux cas, il est conseiller de vous aider de la correction de l'exercic
 
 ### La sauvegarde des personnages
 
-Pour simplifier la sauvegarde, il est peut-être intéressant de créer une classe Game qui contiendrais tous vos personnages et de sauvegarder cette classe dans un fichier json.
+Pour mettre en place la sauvegarde, il est peut-être intéressant de créer une classe Game qui contiendrait tous vos personnages et de sauvegarder cette classe dans un fichier json.
 
 ### La sauvegarde de résultats
 
